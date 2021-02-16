@@ -1,6 +1,6 @@
 # Learn Git
 
-## 创建版本库
+### 创建版本库
 
 创建一个空目录
 
@@ -21,5 +21,19 @@ git init
 ```
 git add name
 git commit -m "biaozhu"
+```
+
+### 时光机穿梭
+
+当修改文件后，可用以下命令查看结果
+
+```
+git status
+```
+
+查看具体修改了什么内容
+
+```
+git diff name
 ```
 
