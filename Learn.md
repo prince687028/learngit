@@ -148,6 +148,8 @@ git clone git@github.com:prince687028/gitskills.git
 git checkout -b 分支名
 ```
 
+![git-br-create](https://www.liaoxuefeng.com/files/attachments/919022363210080/l)
+
 -b表示创建并切换，相当于以下两条命令
 
 ```
@@ -172,6 +174,8 @@ git checkout 分支名
 ```
 git merge 分支名
 ```
+
+![git-br-ff-merge](https://www.liaoxuefeng.com/files/attachments/919022412005504/0)
 
 删除分支
 
@@ -202,4 +206,20 @@ git switch 分支名
 ```
 git log --graph
 ```
+
+#### 分支管理策略
+
+合并分支时，使用普通模式合并
+
+```
+git merge --no--ff -m "注释" 分支名
+```
+
+此时的分支合并示意图如下
+
+![git-no-ff-mode](https://www.liaoxuefeng.com/files/attachments/919023225142304/0)
+
+
+
+#### Bug分支
 
